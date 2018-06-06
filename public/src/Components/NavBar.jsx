@@ -7,21 +7,21 @@ export class NavBar extends React.Component{
   render(){
     return(
       <div>
-        <div className = "topBanner fullscreen">
-          <MenuDropdown />
-          <div className = "navBar item">
-            <a href = /*TODO*/"">Deals</a>
+        <div className = "topBanner">
+          <div className = "navBar">
+            <MenuDropdown />
+            <a className = "navBar-item" href = /*TODO*/"">Deals</a>
           </div>
-          <img className = "navBar logo"
+          <img className = "navBar-logo"
             alt = "Pizza Hut"
-            src = "../../images/pizzahut"
+            src = "../../images/pizzahut.png"
           />
         </div>
-        <div className = "bottomBanner fullscreen">
+        <div className = "navBar-welcome">
           <Welcome />
           <HutRewards />
         </div>
-        <div className = "navBar divider"></div>
+        <div className = "navBar-divider"></div>
       </div>
     )
   }
