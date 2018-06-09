@@ -7,15 +7,18 @@ export class NavBar extends React.Component{
   render(){
     return(
       <div>
-        <div className = "topBanner">
-          <div className = "navBar">
+        <div className = "navBar">
+          <div className = "navBar-options">
             <MenuDropdown />
             <a className = "navBar-item" href = /*TODO*/"">Deals</a>
           </div>
-          <img className = "navBar-logo"
-            alt = "Pizza Hut"
-            src = "../../images/pizzahut.png"
-          />
+          <div className = "navBar-logo">
+            <img 
+              alt = "Pizza Hut"
+              src = "../../images/pizzahut.png"
+            />
+          </div>
+          <div className = "navBar-counterBalance"></div>
         </div>
         <div className = "navBar-welcome">
           <Welcome />

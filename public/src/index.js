@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { App } from "./Components/App.jsx";
+import { HomePage } from "./Components/HomePage.jsx";
 //import redux
 
 //reducer/store
 
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<HomePage />, document.getElementById("root"));

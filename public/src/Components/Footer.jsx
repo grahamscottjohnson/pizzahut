@@ -1,14 +1,13 @@
 import React from "react";
 import { BottomNavigation } from "./BottomNavigation.jsx";
+import { PageSummary } from "./PageSummary.jsx";
 
 export class Footer extends React.Component{
   render(){
     return(
-      <div className = "footer fullscreen">
+      <div className = "footer normalMargin">
         <BottomNavigation />
-        <div className = "center">
-          <img alt = "Powered by Quick Order" src = "../../images/quickorder.jpg" />
-        </div>
+        <img className = "logo" alt = "Powered by Quick Order logo is an Icon so don't know what to do" src = "../../images/quickorder.jpg" />
         <p>
 THE DELIVERY CHARGE IS NOT A DRIVER TIP. Offers Available For A Limited Time. You Must Ask/Click For Certain Offers. Additional Charge For Extra Cheese, Stuffed Crust, Pan, And Extra Toppings May Apply. Product Availability, Combinability Of Discounts And Specials, Prices, Participation, Delivery Areas And Charges, And Minimum Purchase Required For Delivery May Vary. Discounts Are Not Applicable To Tax, Delivery Charge, Or Driver Tip. Availability Of WingStreet® Products And Flavors Varies By Pizza Hut® Location.
         </p>
